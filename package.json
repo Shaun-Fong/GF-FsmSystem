@@ -1,0 +1,15 @@
+{
+  "name": "gameframework.fsmsystem",
+  "displayName": "GF-FsmSystem",
+  "version": "1.0.0",
+  "unity": "2019.1",
+  "unityRelease": "1f1",
+  "description": "FsmSystem Of GameFramework",
+  "keywords": [
+    "gameframework",
+    "fsmsystem"
+  ],
+  "license": "MIT",
+  "category": "GF",
+  "hideInEditor": false
+}
