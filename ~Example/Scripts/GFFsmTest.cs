@@ -120,7 +120,4 @@ public class GFFsmTest : MonoBehaviour
         _mActor.StartState();
 
     }
-
-
-
 }
