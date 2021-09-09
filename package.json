@@ -1,7 +1,7 @@
 {
   "name": "gameframework.fsmsystem",
   "displayName": "GF-FsmSystem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2019.1",
   "unityRelease": "1f1",
   "description": "FsmSystem Of GameFramework",
