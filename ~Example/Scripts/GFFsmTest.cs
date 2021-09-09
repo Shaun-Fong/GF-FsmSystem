@@ -27,21 +27,21 @@ public class Actor
 
 public class StandState : FsmState<Actor>
 {
-    protected override void OnInit(IFsm<Actor> fsm)
+    public override void OnInit(IFsm<Actor> fsm)
     {
         base.OnInit(fsm);
 
         Debug.Log("Stand State Init.");
     }
 
-    protected override void OnDestroy(IFsm<Actor> fsm)
+    public override void OnDestroy(IFsm<Actor> fsm)
     {
         base.OnDestroy(fsm);
 
         Debug.Log("Stand State Destroy.");
     }
 
-    protected override void OnEnter(IFsm<Actor> fsm)
+    public override void OnEnter(IFsm<Actor> fsm)
     {
         base.OnEnter(fsm);
         
@@ -51,14 +51,14 @@ public class StandState : FsmState<Actor>
         ChangeState<WalkState>(fsm);
     }
 
-    protected override void OnLeave(IFsm<Actor> fsm, bool isShutdown)
+    public override void OnLeave(IFsm<Actor> fsm, bool isShutdown)
     {
         base.OnLeave(fsm, isShutdown);
 
         Debug.Log("Stand State Leave");
     }
 
-    protected override void OnUpdate(IFsm<Actor> fsm, float elapseSeconds, float realElapseSeconds)
+    public override void OnUpdate(IFsm<Actor> fsm, float elapseSeconds, float realElapseSeconds)
     {
         base.OnUpdate(fsm, elapseSeconds, realElapseSeconds);
 
@@ -68,35 +68,35 @@ public class StandState : FsmState<Actor>
 
 public class WalkState : FsmState<Actor>
 {
-    protected override void OnInit(IFsm<Actor> fsm)
+    public override void OnInit(IFsm<Actor> fsm)
     {
         base.OnInit(fsm);
 
         Debug.Log("Walk State Init.");
     }
 
-    protected override void OnDestroy(IFsm<Actor> fsm)
+    public override void OnDestroy(IFsm<Actor> fsm)
     {
         base.OnDestroy(fsm);
 
         Debug.Log("Walk State Destroy.");
     }
 
-    protected override void OnEnter(IFsm<Actor> fsm)
+    public override void OnEnter(IFsm<Actor> fsm)
     {
         base.OnEnter(fsm);
 
         Debug.Log("Walk State Enter");
     }
 
-    protected override void OnLeave(IFsm<Actor> fsm, bool isShutdown)
+    public override void OnLeave(IFsm<Actor> fsm, bool isShutdown)
     {
         base.OnLeave(fsm, isShutdown);
 
         Debug.Log("Walk State Leave");
     }
 
-    protected override void OnUpdate(IFsm<Actor> fsm, float elapseSeconds, float realElapseSeconds)
+    public override void OnUpdate(IFsm<Actor> fsm, float elapseSeconds, float realElapseSeconds)
     {
         base.OnUpdate(fsm, elapseSeconds, realElapseSeconds);
 
