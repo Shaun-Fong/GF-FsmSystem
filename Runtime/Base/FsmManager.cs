@@ -13,7 +13,7 @@ namespace GF.Fsm
     /// <summary>
     /// 有限状态机管理器。
     /// </summary>
-    internal sealed class FsmManager : GameFrameworkModule, IFsmManager
+    public sealed class FsmManager : GameFrameworkModule, IFsmManager
     {
         private readonly Dictionary<TypeNamePair, FsmBase> m_Fsms;
         private readonly List<FsmBase> m_TempFsms;
