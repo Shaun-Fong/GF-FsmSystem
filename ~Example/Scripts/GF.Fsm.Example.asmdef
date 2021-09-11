@@ -2,7 +2,6 @@
     "name": "GF.Fsm.Exaple",
     "rootNamespace": "",
     "references": [
-        "GUID:fb75a23eeb8220e4aad80e15e1ed675d",
         "GUID:ca962db621d4a61488551efbac1cbbdf",
         "GUID:ec2086d841a4ac44387d251d9bd72cd2",
         "GUID:0f2935e323b68ca438f34693f8d7d5ef"
