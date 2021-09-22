@@ -28,15 +28,19 @@ Requires a version of unity that supports path query parameter for git packages 
 
 2. Go `https://github.com/shaun-he/GF-FsmSystem.git` , Click the **Green Code** button , then click **Download Zip**.
 
-3. Unzip two file somewhere in your disk.
+3. Extract GF-Core.zip.
 
 4. In Unity , Go to Window -> Package Manager -> Add package from disk
 
-5. open the **package.json** which in your GF-Core unzip folder.
+5. open the **package.json** in the GF-Core extracted folder.
 
-6. open the **package.json** which in your GF-FsmSystem unzip folder.
+6. Extract GF-FsmSystem.zip.
 
-7. Done!
+7. In Unity , Go to Window -> Package Manager -> Add package from disk
+
+8. open the **package.json** in the GF-FsmSystem extracted folder.
+
+7. Enjoy!
 
 ## About Errors
 
