@@ -1,6 +1,6 @@
 # GF-FsmSystem
 
-GameFramework框架事件系统
+GameFramework框架状态机系统
 
 [EnglishDoc](README.md)
 
